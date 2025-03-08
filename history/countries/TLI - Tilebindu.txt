@@ -6,15 +6,32 @@ technology_group = sub_saharan
 unlock_cult = yemoja_cult #keep these for feteshist path?
 unlock_cult = roog_cult
 unlock_cult = nyame_cult
-capital = 1124	# Niani
+capital = 756	# Bahia/Dalaaba
 religious_school = maliki_school
 
-1430.1.1 = {
+1423.1.1 = {
 	monarch = {
 		name = "Muhammad III"
-		dynasty = "Keita"
-		adm = 3
-		dip = 4
-		mil = 2
+		dynasty = "ibn Qu"
+		birth_date = 1401.4.6
+		adm = 4
+		dip = 5
+		mil = 3
 	}
+	add_ruler_personality =	tolerant_personality
+	add_ruler_personality = lawgiver_personality
+	every_province = {
+		limit = { 
+			OR = {
+				area = bahia_area
+				area = rio_de_janeiro_area
+				province_id = 766
+				province_id = 769
+				province_id = 766
+				area = pernambuco_area
+				area = ceara_area
+			}
+		}
+		ROOT = { discover_province = PREV }
+	}	
 }
