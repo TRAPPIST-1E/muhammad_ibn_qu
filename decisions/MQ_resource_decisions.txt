@@ -1,0 +1,39 @@
+country_decisions = {
+	mq_repurpose_trade_fleet = {	
+		potential = {
+			has_country_flag = mq_deal_with_resources_decs_flag
+		}
+		provinces_to_highlight = {
+			is_capital_of = ROOT
+			NOT = {
+				num_of_units_in_province = {
+					amount = 6
+					type = light_ship
+				}
+			}
+		}
+		allow = {
+			capital_scope = {
+				num_of_units_in_province = {
+					amount = 6
+					type = light_ship
+				}
+			}
+		}
+		effect = {
+			capital_scope = {
+				kill_units = {
+					who = ROOT
+					amount = 6
+					type = light_ship
+				}
+			}
+			country_event = {
+				id = tilebindu.2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

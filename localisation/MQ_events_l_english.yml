@@ -1,0 +1,18 @@
+﻿l_english:
+#######################Tilebindu
+#Lore event
+ tilebindu.1.t: "The Land of Muhammad Qu"
+ tilebindu.1.d: "REPLACE_ME" #resources are dwindling, contact is lost, hope is lost unless we can consolidate resources and stuff
+ tilebindu.1a: "A great challenge lies ahead."
+
+#repurpose the navy
+ tilebindu.2.t: "Repurposing the Navy"
+ tilebindu.2.d: "REPLACE_ME" #scrap the navy and use the resources to improve capital
+ tilebindu.2a: "Improve housing."
+ tilebindu.2b: "Improve economic facilities."
+ tilebindu.2a: "Improve military structures."
+
+#Decide what to do about crisis
+ tilebindu.3.t: "The [Root.Monarch.GetTitle] and his Advisors"
+ tilebindu.3.d: "REPLACE_ME" #resources are dwindling, cwe gotta do something, advisors propose a variety of things we can do to extend resources and revitalize ourselves.
+ tilebindu.3a: "Drastic measures must be taken."

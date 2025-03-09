@@ -1,0 +1,67 @@
+namespace = tilebindu
+country_event = { #lore
+	id = tilebindu.1
+	title = tilebindu.1.t
+	desc = tilebindu.1.d
+	picture = COLONIZATION_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		NOT = {is_year = 1445}
+	}
+	fire_only_once = yes
+
+	option = {
+		name = tilebindu.1a
+		hidden_effect = {
+			country_event = {
+				id = tilebindu.3
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { #repurpose ships
+	id = tilebindu.2
+	title = tilebindu.2.t
+	desc = tilebindu.2.d
+	picture = DUTCH_SHIPS_PLUNDERING_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = tilebindu.2a
+		capital_scope = {
+			add_base_tax = 2
+		}
+	}
+	option = {
+		name = tilebindu.2b
+		capital_scope = {
+			add_base_production = 2
+		}
+	}
+	option = {
+		name = tilebindu.2c
+		capital_scope = {
+			add_base_manpower = 2
+		}
+	}
+}
+
+country_event = { #oh shit we're poor
+	id = tilebindu.3
+	title = tilebindu.3.t
+	desc = tilebindu.3.d
+	picture = DUTCH_SHIPS_PLUNDERING_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = tilebindu.3a
+		set_country_flag = mq_deal_with_resources_decs_flag
+	}
+}

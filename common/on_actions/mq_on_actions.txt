@@ -1,0 +1,13 @@
+on_startup = {
+	if = {
+		limit = {
+			tag = TLI
+			NOT = {
+				is_year = 1445
+			}
+		}
+		country_event = { #lore and setup event
+			id = tilebindu.1
+		}
+	}
+}
