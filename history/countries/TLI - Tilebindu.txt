@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = musa_rule #temp until we make a custom gov reform
+add_government_reform = mali_settlement_reform #temp until we make a custom gov reform
 primary_culture = mali
 religion = sunni
 technology_group = sub_saharan
@@ -8,6 +8,7 @@ unlock_cult = roog_cult
 unlock_cult = nyame_cult
 capital = 756	# Bahia/Dalaaba
 religious_school = maliki_school
+change_government_reform_progress = 99
 
 1423.1.1 = {
 	monarch = {
