@@ -1,3 +1,7 @@
+744 = "Dimororoo" #malinized Demerara 
+745 = "Sorinomo" #malinized Suriname 
+746 = "Kayenna" #malinized Cayenne 
+747 = "Tukulando" #malinized Tukujulandia 
 748 = "Suto" #from frontier
 749 = "Kenyo" #from sand. This place is known for sand dunes
 750 = "Mansakiyo" #derivative of King
@@ -8,6 +12,7 @@
 755 = "Baadandano" #Coast
 756 = "Dalabaa" #beside the sea
 757 = "Satesisi" #Smoky town
+758 = "Nganya" #from feast 
 759 = "Satemusa" #town of Moses
 760 = "Sisilinga" #derivative of Mosquito
 761 = "Furo" #derivative of oven, like a hot place ig
@@ -16,14 +21,44 @@
 764 = "Koyiringo" #derivative of white
 765 = "Barika" #from blessing
 766 = "Tyete" #Malinized version of Tiete, the tupi word for the river here.
+768 = "Kwayro" #Malinized Guayra 
 769 = "Kuritoba" #Malinized version of local tupi word Kuri Tyba
-1096 = "Kabowerda" #malinized version of Cape Verde
+772 = "Basandu" #malinized Paysandu 
+773 = "Mooya" #from polite
+776 = "Isiyaako" #derivative of Isaac 
+799 = "Ndemoo" #from bear
+800 = "Wisiwiso" #from drizzling rain
+1096 = "Kabwerda" #malinized version of Cape Verde
+2854 = "Kaanoo" #from pepper
+2857 = "Bulubaa" #from south
+2879 = "Nganingo" #from thorns 
+2881 = "Lembay" #derivative of shout 
+2882 = "Tukiwaka" #malinized Tucavaca 
+2883 = "Barkwi" #malinized Paraguay
+2884 = "Hahimo" #malinized Xaxim 
 2885 = "Jikindya" #derivative of optimistic
 2886 = "Barinaba" #malinized Paranaiba
+2887 = "Timbo" #pretty much just the native name 
+2888 = "Karumba" #malinized Corumba 
+2889 = "Bironko" #malinized Branco 
+2890 = "Mariho" #malinized Marajo 
 2891 = "Barakatu" #this is cool. Malinized version of Paracatu, but happense to be the Arabic word for blessing.
+2892 = "Baayer" #derivative of goat 
+2893 = "Ofayoo" #malinized Ofaie 
 2894 = "Saateyusif" #city of Joseph
+2895 = "Yipironga" #malinized Ipiranga, native word 
+2896 = "Alanso" #woman's name, meaning "God bless me" 
+2897 = "Arikoro" #malinized Araraquara 
 2898 = "Seroo" #Malinized Serro
 2899 = "Idiriisya" #derivative of the name for Enoch
+2900 = "Kwaboor" #malinized Guapore
+2901 = "Kawahifi" #malinized Kawahiva
+2902 = "Lannabaliya" #derivative of disbelief 
+2903 = "Tukim" #malinized Tucum N
+2904 = "Luluwo" #from diamond, as the spanish/portuguese name is Diamantino 
+2905 = "Baasaringo" #baa is river, saringo is dead. From Rio Das Mortes 
+2906 = "Poro" #bastardized Ipora
+2907 = "Malaayikoo" #from angel, originally Arabic/Hebrew 
 2908 = "Jusoo" #from heart
 2909 = "Ponteek" #slightly changed Pontal
 2910 = "Dosiringi" #derivative of "one short of something"
@@ -35,6 +70,8 @@
 2916 = "Jibirinya" #derivative of Gabriel, like the angel
 2917 = "Hasantatoo" #Fort Hasan
 2918 = "Bamako Kutoo" #New Bamako
+2919 = "Joyos" #malinized Goias 
+2920 = "Bororo" #name of the tribe there 
 2921 = "Wolof Janfa" #Far Jolof
 2922 = "Tunjositi" # Tunjo is hill, siti is unlucky
 2923 = "Sokolo" #from a city in Mali, someone was homesick
@@ -43,6 +80,10 @@
 2926 = "Naane" #from jungle
 2927 = "Firifiro" #from butterfly
 2928 = "Tuk" #malinize and bastardized Tucurui
-
-
-
+2929 = "Baleem" #malinized Balem
+2930 = "Tabokali" #malinized Tabocal
+2931 = "Alankari" #malinized Alenquer
+2933 = "Firano" #bastardized Faro
+2934 = "Manosi" #malinized Manaus
+2935 = "Muturo" #malinized Muturu 
+2938 = "Wipaki" #malinized Oiapoque 
