@@ -1,0 +1,135 @@
+namespace = mq_resource
+
+country_event = { #clan feud
+	id = mq_resource.1
+	title = mq_resource.1.t
+	desc = mq_resource.1.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	mean_time_to_happen = {
+		months = 48
+	}
+	trigger = {
+		has_government_mechanic = TLI_resources_mechanic
+		NOT = {
+			stability = 2
+		}
+		NOT = {
+			any_owned_province = {
+				devastation = 20
+			}
+		}
+	}
+
+	option = {
+		name = mq_resource.1a
+		random_owned_province = {
+			add_devastation = 15
+		}
+		add_government_power = {
+			mechanic_type = TLI_resources_mechanic
+			power_type = TLI_resources
+			value = -5
+		}
+	}
+}
+
+country_event = { #culture
+	id = mq_resource.2
+	title = mq_resource.2.t
+	desc = mq_resource.2.d
+	picture = 19_Monsoon_eventPicture
+	mean_time_to_happen = {
+		months = 48
+	}
+	trigger = {
+		has_government_mechanic = TLI_resources_mechanic
+		is_month = 3
+		NOT = {
+			is_month = 8
+		}
+	}
+
+	option = {
+		name = mq_resource.2a
+		random_owned_province = {
+			add_devastation = 20
+		}
+		add_stability = -1
+		add_government_power = {
+			mechanic_type = TLI_resources_mechanic
+			power_type = TLI_resources
+			value = -5
+		}
+	}
+	option = {
+		name = mq_resource.2b
+		random_owned_province = {
+			add_devastation = 10
+		}
+		add_government_power = {
+			mechanic_type = TLI_resources_mechanic
+			power_type = TLI_resources
+			value = -2.5
+		}
+		add_treasury = -75
+		add_adm_power = -50
+	}
+}
+
+country_event = { #boom of young people
+	id = mq_resource.3
+	title = mq_resource.3.t
+	desc = mq_resource.3.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	mean_time_to_happen = {
+		months = 48
+	}
+	trigger = {
+		has_government_mechanic = TLI_resources_mechanic
+		stability = -1
+	}
+
+	option = {
+		name = mq_resource.3a
+		add_yearly_manpower = 1
+		random_owned_province = {
+			add_random_development = 1
+		}
+		add_government_power = {
+			mechanic_type = TLI_resources_mechanic
+			power_type = TLI_resources
+			value = 5
+		}
+	}
+}
+
+country_event = { #noble dies
+	id = mq_resource.4
+	title = mq_resource.4.t
+	desc = mq_resource.4.d
+	picture = DEATH_OF_HEIR_eventPicture
+	mean_time_to_happen = {
+		months = 48
+	}
+	trigger = {
+		has_government_mechanic = TLI_resources_mechanic
+		stability = -1
+	}
+
+	option = {
+		name = mq_resource.4a
+		random_owned_province = {
+			add_random_development = 1
+		}
+		add_years_of_income = 0.1
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		add_government_power = {
+			mechanic_type = TLI_resources_mechanic
+			power_type = TLI_resources
+			value = 5
+		}
+	}
+}
+

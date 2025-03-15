@@ -21,3 +21,27 @@
  tilebindu.4.t: "A New Culture in Tilebindu"
  tilebindu.4.d: "REPLACE_ME"
  tilebindu.4a: "A new people for a new land."
+
+
+##################Resources
+
+#Clan Feud
+ mq_resource.1.t: "Clan Feud"
+ mq_resource.1.d: "The various powerful clans of Tilebindu are always at odds. Fighting, arguing, and more, they tend to bring trouble wherever they go. This has recently developed into a recent feud in one of our provinces, leaving nothing but pain and suffering in it's wake."
+ mq_resource.1a: "Damn them!"
+
+#Tropical Storm
+ mq_resource.2.t: "Devastating Tropical Storm"
+ mq_resource.2.d: "The Atlantic ocean is never known for being calm, and recently a large tropical storm has passed through our land, devastating everything in it's wake. This has caused widespread grief and destruction, with the [Root.Monarch.GetTitle] desperately trying to figure out how to respond."
+ mq_resource.2a: "Oh no!"
+ mq_resource.2d: "We will do all we can to help with the damage."
+
+#young people
+ mq_resource.3.t: "Rush of Youth"
+ mq_resource.3.d: "As our nation expands and revitalizes itself, the population is experiencing somewhat of a baby boom. More youth are signing up for the army and joining the workforce, and our nation prospers."
+ mq_resource.3a: "Yes!"
+
+#Noble dies
+ mq_resource.4.t: "Local Lord Dies"
+ mq_resource.4.d: "A local lord in one of our provinces has recently passed on. However, he is without any real heir, and no one is in a rush to claim his territory, as it would seem. This leaves the opportunity for [Root.Monarch.GetName] to take posession of the land and assune direct control."
+ mq_resource.4a: "What a shame about the death, but great news!"
