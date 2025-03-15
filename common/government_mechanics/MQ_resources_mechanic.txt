@@ -1,0 +1,35 @@
+TLI_resources_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 11
+	available = {	}
+	powers = {
+		TLI_resources = {
+			show_before_interactions = yes
+			max = 100
+			min = 0
+			reset_on_new_ruler = no
+			scaled_modifier = {
+				start_value = 50
+				end_value = 100
+				modifier = {
+					production_efficiency = 0.1
+					global_manpower_modifier = 0.15
+					global_colonial_growth = 20
+				}
+			}
+			scaled_modifier = {
+				start_value = 50
+				end_value = 0
+				modifier = {
+					production_efficiency = -0.25
+					global_manpower_modifier = -0.25
+					global_colonial_growth = -50
+				}
+			}
+			on_max_reached = {
+				add_government_reform = mali_established_settlement
+			}
+			is_good = yes
+		}
+	}
+}

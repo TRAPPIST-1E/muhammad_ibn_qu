@@ -3,7 +3,6 @@ monarchy = {
 	reform_levels = {
 		feudalism_vs_autocracy = {
 			reforms = {
-				mali_settlement_reform
 				feudalism_reform
 				autocracy_reform
 				elective_monarchy_reform
@@ -130,11 +129,14 @@ monarchy = {
 				austrian_absolute_monarchy
 				merchant_aristocracy_reform
 				gothic_monarchy_reform
+				#MQ
+				mali_settlement_reform
+				mali_established_settlement
+				#
 			}
 		}
 		hereditary_vs_nobility = {
-			reforms = {
-				mali_established_settlement				
+			reforms = {				
 				enforce_privileges_reform
 				quash_noble_power_reform
 				enforce_trader_privileges_reform

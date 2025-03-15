@@ -1,0 +1,39 @@
+mali_settlement_reform = {
+	potential = {
+		tag = TLI
+		has_reform = mali_settlement_reform
+	}
+	modifiers = {
+		manpower_recovery_speed = -0.33
+		diplomatic_upkeep = -2
+		#Struggling with government
+		monthly_reform_progress = -1
+	}
+	icon = "tribal_council"
+	lock_level_when_selected = yes
+	fixed_rank = 1
+	government_abilities = {
+		TLI_resources_mechanic
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+mali_established_settlement = {
+	potential = {
+		tag = TLI
+		has_reform = mali_settlement_reform
+	}
+	modifiers = {
+		colonists = 1
+		monthly_reform_progress = 0.3
+	}
+	icon = "musa_rule"
+	lock_level_when_selected = yes
+	fixed_rank = 2
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

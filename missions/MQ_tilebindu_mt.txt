@@ -1,0 +1,103 @@
+TLI_branch1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = TLI } 
+
+	tli_raise_militias = {
+		icon = mission_african_soldier
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  
+			army_size = 10
+			num_of_generals = 2
+			manpower_percentage = 0.8
+		} 
+
+		effect = {  } 
+	}
+}
+TLI_branch2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = TLI } 
+
+}
+TLI_branch3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = TLI } 
+
+	tli_curb_decline = {
+		icon = mission_son_invade_mali
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  
+			has_government_power = {
+				mechanic_type = TLI_resources_mechanic
+				power_type = TLI_resources
+				value = 20
+			}
+		} 
+
+		effect = {  } 
+	}
+
+	tli_edge_of_collapse = {
+		icon = mission_mal_fighting_musa
+		position = 2
+		required_missions = {
+			tli_curb_decline
+			tli_revitalize_colony
+			tli_raise_militias
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  
+			has_reform = mali_established_settlement
+			monthly_adm = 10
+		} 
+
+		effect = {  } 
+	}
+}
+TLI_branch4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = TLI } 
+
+}
+TLI_branch5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = TLI } 
+
+	tli_revitalize_colony = {
+		icon = mission_african_trade_post
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  
+			capital_scope = {
+				num_of_times_improved = 5
+				has_tax_building_trigger = yes
+			}
+			adm_tech = 4
+			mil_tech = 4
+			dip_tech = 4
+		} 
+
+		effect = {  } 
+	}
+}

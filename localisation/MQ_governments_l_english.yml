@@ -3,3 +3,9 @@ mali_settlement_reform: "Early Tilebindu Settlement"
 mali_settlement_reform_desc: "The settlements of the Tilebindu have developed greatly. But their mismanagement of resources, unfriendly neighbours and the hostile environment has caused issues within the colony."
 mali_established_settlement: "Established Settlement"
 mali_established_settlement_desc: "The Tilebindu have established a settlement in the region. It is a small but thriving community."
+
+
+#gov mech
+TLI_resources_mechanic: "Colonial Strength"
+TLI_resources: "Colonial Strength"
+TLI_resources_gain_modifier: "Colonial Strength Gain Modifier"
