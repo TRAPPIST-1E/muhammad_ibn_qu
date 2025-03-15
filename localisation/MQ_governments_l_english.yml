@@ -6,6 +6,8 @@ mali_established_settlement_desc: "The Tilebindu have established a settlement i
 
 
 #gov mech
+ability_TLI_resources_mechanic: "Colonial Strength"
 TLI_resources_mechanic: "Colonial Strength"
 TLI_resources: "Colonial Strength"
+TLI_resources_desc: "Colonial Strength is a measure of how the Tilebindu colony is surviving. Staying below 10 for an extended period of time will lead to the §Rend of the nation§!.\nIt can be gained by the following:\n-Developing provinces\nIt can be lost by the following:\n-Negative Events\n\n"
 TLI_resources_gain_modifier: "Colonial Strength Gain Modifier"

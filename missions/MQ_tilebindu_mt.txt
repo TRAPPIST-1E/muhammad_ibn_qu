@@ -47,7 +47,14 @@ TLI_branch3 = {
 			}
 		} 
 
-		effect = {  } 
+		effect = {  
+			capital_scope = {
+				add_institution_embracement = {
+					which = feudalism
+					value = 100
+				}
+			}
+		} 
 	}
 
 	tli_edge_of_collapse = {

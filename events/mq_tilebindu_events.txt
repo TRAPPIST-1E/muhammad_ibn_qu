@@ -65,3 +65,34 @@ country_event = { #oh shit we're poor
 		set_country_flag = mq_deal_with_resources_decs_flag
 	}
 }
+
+
+country_event = { #culture
+	id = tilebindu.4
+	title = tilebindu.4.t
+	desc = tilebindu.4.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		tag = TLI
+		NOT = {
+			primary_culture = tilebinduan
+		}
+		is_year = 1470
+		culture_group = mande
+	}
+	fire_only_once = yes
+
+	option = {
+		name = tilebindu.3b
+		change_primary_culture = tilebinduan
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					culture = ROOT
+				}
+				change_culture = tilebinduan
+			}
+		}
+	}
+}

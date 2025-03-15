@@ -16,3 +16,8 @@
  tilebindu.3.t: "The [Root.Monarch.GetTitle] and his Advisors"
  tilebindu.3.d: "REPLACE_ME" #resources are dwindling, cwe gotta do something, advisors propose a variety of things we can do to extend resources and revitalize ourselves.
  tilebindu.3a: "Drastic measures must be taken."
+
+#Culture switch
+ tilebindu.4.t: "A New Culture in Tilebindu"
+ tilebindu.4.d: "REPLACE_ME"
+ tilebindu.4a: "A new people for a new land."
