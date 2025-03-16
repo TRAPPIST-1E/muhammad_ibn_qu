@@ -16,12 +16,23 @@
  tilebindu.3.t: "The [Root.Monarch.GetTitle] and his Advisors"
  tilebindu.3.d: "REPLACE_ME" #resources are dwindling, cwe gotta do something, advisors propose a variety of things we can do to extend resources and revitalize ourselves.
  tilebindu.3a: "Drastic measures must be taken."
+ tli_decisions_to_fix_stuff_tt: "§TEnable various Decisions to help fix our nation.§!"
 
 #Culture switch
  tilebindu.4.t: "A New Culture in Tilebindu"
  tilebindu.4.d: "REPLACE_ME"
  tilebindu.4a: "A new people for a new land."
 
+#Culture switch
+ tilebindu.5.t: "The Reforms of Abdul Sangare"
+ tilebindu.5.d: "Recently, a man has been rising up the ranks of the administration of Tilebindu. He is both extremely competent, and brings new ideas about how to administer the colony in a way that would make it more efficient and prosperous. By taking him into our employ, we can reform the state to better suit our needs."
+ tilebindu.5a: "Splendid!"
+
+#Culture switch
+ tilebindu.6.t: "Restoration of the Mosque of Dalabaa"
+ tilebindu.6.d: "The mosque of Dalabaa was once a great place of worship, an example to the whole of Tilebindu, and the heart of Islam in this foreign land. Now, however, it has fallen into disrepair and ruin, and the last time a prayer service was held there was nearly 30 years ago. To revitalize our nation, we must restore it to it's former glory."
+ tilebindu.6a: "We have a lot of work to do."
+ tilebindu.6b: "We cannot spare the funds."
 
 ##################Resources
 

@@ -1,0 +1,4 @@
+tli_recovering_colony = {
+	monthly_TLI_resources = 0.25
+	development_cost = -0.1
+}

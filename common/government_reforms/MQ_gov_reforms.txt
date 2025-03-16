@@ -23,7 +23,7 @@ mali_settlement_reform = {
 mali_established_settlement = {
 	potential = {
 		tag = TLI
-		has_reform = mali_settlement_reform
+		has_reform = mali_established_settlement
 	}
 	modifiers = {
 		colonists = 1

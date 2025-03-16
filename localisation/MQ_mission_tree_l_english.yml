@@ -11,4 +11,5 @@
  tli_revitalize_colony_title:0 "Revitalize the Colony"
  tli_revitalize_colony_desc:0 ""
 
-
+#Modifiers
+tli_recovering_colony: "Recovering Colony"
