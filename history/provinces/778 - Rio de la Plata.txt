@@ -4,7 +4,6 @@ culture = charruan
 discovered_by = south_american
 religion = animism
 capital = "Rio de la Plata"
-is_city = yes
 trade_goods = unknown
 hre = no
 base_tax = 4 

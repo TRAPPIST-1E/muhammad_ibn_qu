@@ -1,19 +1,20 @@
 government = monarchy
-add_government_reform = mali_settlement_reform #temp until we make a custom gov reform
+add_government_reform = mali_settlement_reform
 primary_culture = mali
 religion = sunni
-technology_group = sub_saharan
+technology_group = exiled_west_african
 unlock_cult = yemoja_cult #keep these for feteshist path?
 unlock_cult = roog_cult
 unlock_cult = nyame_cult
 capital = 756	# Bahia/Dalaaba
 religious_school = maliki_school
-change_government_reform_progress = 99
+
+unit_type = sub_saharan #needed because tech group has no units
 
 1423.1.1 = {
 	monarch = {
 		name = "Muhammad III"
-		dynasty = "ibn Qu"
+		dynasty = "Keita"
 		birth_date = 1401.4.6
 		adm = 4
 		dip = 5

@@ -1,0 +1,42 @@
+TLI_ideas = {
+	start = {
+		development_cost = -0.1
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = TLI
+	}
+	free = yes
+	
+	forging_of_an_empire = {
+		core_creation = -0.1
+	}
+	eternal_fleet_of_muhammad_qu ={
+		navy_tradition = 1
+		naval_forcelimit_modifier = 0.15
+	}
+	strangers_of_the_trees = {
+		native_assimilation = 0.5
+		native_uprising_chance = -0.5
+	}
+	the_word_of_allah = {
+		tolerance_own = 1
+		global_missionary_strength = 0.02
+	}
+	winds_of_trade = {
+		global_trade_power = 0.1
+		merchants = 1
+	}
+	fruit_of_the_interior = {
+		global_trade_goods_size_modifier = 0.1
+		production_efficiency = 0.1
+	}
+	defend_from_the_west = {
+		defensiveness = 0.25
+	}
+}

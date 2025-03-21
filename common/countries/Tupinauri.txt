@@ -3,7 +3,6 @@
 graphical_culture = northamericagfx
 
 color = { 196 63 63 }
-revolutionary_colors = { 196  63  63 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -31,28 +30,28 @@ historical_units = {
 }
 
 leader_names = {
-	Piratininga Tabajara Temimin� Tamoio Tabajara Caet� Tupina� Temimin� Tupina Aricob�
+	Piratininga Tabajara Tamoio Tabajara Tupina
 }
 
 monarch_names = {
 	"Cunhambebe #0" = 30
 	"MONARCH_NAME_ARARIBOIA" = 10
-	"Maracaj� #0" = 10
+	"Maracaja #0" = 10
 	"Ramalho #0" = 10
 	"Italo #0" = 10
 	"Arah #0" = 10
-	"Pirij� #0" = 10
+	"Pirija #0" = 10
 	"Arata #0" = 10
-	"Toru� #0" = 10
+	"Torua #0" = 10
 	"Yperoig #0" = 10
 	
 	"Bartira #0" = -1
-	"Guaibimpar� #0" = -1
+	"Guaibimpara #0" = -1
 	"Azelene #0" = -1
 	"Potira #0" = -1
 }
 
 ship_names = {
-	Bartira Cacique Guaibimpar� Italo Niter�i Piratininga Pirij� Potira Piquerobi Ubatuba Toru� Uru�umirim "Kari'boka"
+	Bartira Cacique Guaibimpara Italo Niterai Piratininga Pirija Potira Piquerobi Ubatuba Torua Uruaumirim "Kari'boka"
 }
 
