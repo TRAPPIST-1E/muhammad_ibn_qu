@@ -2,3 +2,7 @@ tli_recovering_colony = {
 	monthly_TLI_resources = 0.25
 	development_cost = -0.1
 }
+tli_reorganized = {
+	global_colonial_growth = 20
+	may_explore = yes
+}

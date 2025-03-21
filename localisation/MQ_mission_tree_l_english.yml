@@ -2,14 +2,52 @@
  tli_raise_militias_title:0 "Raise the Militias"
  tli_raise_militias_desc:0 ""
 
+ tli_crush_natives_title:0 "Crush the Southerners"
+ tli_crush_natives_desc:0 ""
+
+ tli_bountiful_coasts_title:0 "The Bountiful Coasts"
+ tli_bountiful_coasts_desc:0 ""
+
+ tli_gold_of_south_title:0 "Gold of the South"
+ tli_gold_of_south_desc:0 ""
+
+ tli_expand_northwards_title:0 "Expand Northwards"
+ tli_expand_northwards_desc:0 ""
+
+ tli_march_to_jungle_title:0 "March to the Jungle"
+ tli_march_to_jungle_desc:0 ""
+
+ tli_kill_tupinauri_title:0 "End the Tupinauri"
+ tli_kill_tupinauri_desc:0 ""
+
  tli_curb_decline_title:0 "Curb the Decline"
  tli_curb_decline_desc:0 ""
 
  tli_edge_of_collapse_title:0 "The Edge of Collapse"
  tli_edge_of_collapse_desc:0 ""
 
+ tli_mission_to_east_title:0 "Mission to the East"
+ tli_mission_to_east_desc:0 ""
+
+ tli_tilebindu_at_crossroads_title:0 "Country at Crossroads"
+ tli_tilebindu_at_crossroads_desc:0 ""
+
+ tli_a_new_prospering_land_title:0 "A Prospering Land"
+ tli_a_new_prospering_land_desc:0 ""
+
+ tli_export_unique_goods_title:0 "Export Unique Goods"
+ tli_export_unique_goods_desc:0 ""
+
  tli_revitalize_colony_title:0 "Revitalize the Colony"
  tli_revitalize_colony_desc:0 ""
 
-#Modifiers
-tli_recovering_colony: "Recovering Colony"
+ tli_rebirth_of_dalaaba_title:0 "Rebirth of Dalaaba"
+ tli_rebirth_of_dalaaba_desc:0 ""
+
+ tli_role_of_islam_title:0 "The Role of Islam"
+ tli_role_of_islam_desc:0 ""
+
+ tli_spread_true_faith_title:0 "Spread the Word of Allah"
+ tli_spread_true_faith_desc:0 ""
+
+

@@ -34,6 +34,15 @@
  tilebindu.6a: "We have a lot of work to do."
  tilebindu.6b: "We cannot spare the funds."
 
+ tilebindu.7.t: "The Revival of Tilebindu"
+ tilebindu.7.d: "REPLACE_ME" #we good now
+ tilebindu.7a: "Just imagine how Mansa Muhammad would think of us now!"
+
+ tilebindu.8.t: "The End of the Tilebindu Colony"
+ tilebindu.8.d: "REPLACE_ME" #shit fuck balls
+ tilebindu.8a: "Allah save us . . ."
+ tli_game_over_lol_tt: "This is the end of the Tilebindu colony. Future explorers may find ruins, and the refugees fleeing to the forest may hold memories, but the dream of Muhammad ibn Qu is dead and buried. Game over."
+
 ##################Resources
 
 #Clan Feud

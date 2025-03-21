@@ -171,3 +171,58 @@ country_event = { #mtth rebuild the mosque
 		add_prestige = -10
 	}
 }
+
+country_event = { #mtth rebuild the mosque
+	id = tilebindu.7
+	title = tilebindu.7.t
+	desc = tilebindu.7.d
+	picture = AFRICAN_EXPLORER_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = tilebindu.7a
+		add_country_modifier = {
+			name = tli_reorganized
+			duration = -1
+		}
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+	}
+}
+
+country_event = { #mtth die to colonial strength
+	id = tilebindu.8
+	title = tilebindu.8.t
+	desc = tilebindu.8.d
+	picture = END_OF_TIME_eventPicture
+
+	trigger = {
+		tag = TLI
+		NOT = {
+			has_government_power = {
+				mechanic_type = TLI_resources_mechanic
+				power_type = TLI_resources
+				value = 1
+			}
+		}
+		NOT = {
+			stability = 3
+		}
+	}
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = tilebindu.8a
+		custom_tooltip = tli_game_over_lol_tt
+		hidden_effect = {
+			every_owned_province = {
+				decolonize = yes
+			}
+		}
+	}
+}
