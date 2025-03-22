@@ -64,7 +64,12 @@
  tilebindu.12.t: "The Expedition Returns"
  tilebindu.12.d: "REPLACE_ME" #idk
  tilebindu.12a: "We must restore the Mali Empire!"
- tli_expedition_east_tt: "§TWe shall expect them to return in a year's time.§!"
+ tli_expedition_east_tt: "§TWe shall expect them to return in a year's time.§!"`
+
+ tilebindu.13.t: "The Future of Tilebindu"
+ tilebindu.13.d: "The winds of the Atlantic have carried more than just ships to our shores. For generations, we have thrived in this new land, building Tilebindu from a humble colony to a vibrant realm. Yet, whispers of our ancestral home, the mighty Mali Empire, still linger in the hearts of our people. Some dream of re-establishing that glorious empire, reclaiming its lost territories and restoring its former glory. Others, however, see a different path. They envision a new empire, born from the rich soil of the New World, a fusion of Malian strength and the vibrant cultures of this land." #idk
+ tilebindu.13a: "Restore the glory of Mali!"
+ tilebindu.13b: "We must forge a new path."
 
 ##################Resources
 

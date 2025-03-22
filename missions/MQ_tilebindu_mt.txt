@@ -290,11 +290,41 @@ TLI_branch3 = {
 		icon = mng_inward_perfection
 		position = 5
 		required_missions = { tli_mission_to_east } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  
+			OR = {
+				area = guinea_coast_area
+				area = jolof_area
+				area = futa_jallon_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 3
+				OR = {
+					area = guinea_coast_area
+					area = jolof_area
+					area = futa_jallon_area
+				}
+			}
+			legitimacy = 100
+			OR = {
+				NOT = { exists = MAL }
+				num_of_owned_provinces_with = {
+					value = 35
+					region = brazil_region
+				}
+			}
+		} 
 
-		effect = {  } 
+		effect = {  
+			country_event = {
+				id = tilebindu.13
+			}
+		} 
 	}
 }
 TLI_branch4 = {

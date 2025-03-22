@@ -41,7 +41,7 @@ mali_established_settlement = {
 mali_new_world_empire = {
 	potential = {
 		tag = TLI
-		has_reform = mali_new_world_empire
+		has_country_flag = new_world_empire_flag
 	}
 	modifiers = {
 		colonists = 1
@@ -50,7 +50,6 @@ mali_new_world_empire = {
 	}
 	icon = "musa_rule"
 	lock_level_when_selected = yes
-	fixed_rank = 2
 	
 	custom_attributes = {
 		locked_government_type = yes

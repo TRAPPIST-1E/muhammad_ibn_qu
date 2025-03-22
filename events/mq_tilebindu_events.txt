@@ -391,3 +391,37 @@ country_event = { #bourama tounkara
 		}
 	}
 }
+
+country_event = { #bourama tounkara
+	id = tilebindu.13
+	title = tilebindu.13.t
+	desc = tilebindu.13.d
+	picture = KINGS_CHOICE_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = tilebindu.13a
+		set_country_flag = heirs_of_mali_flag
+		add_country_modifier = {
+			name = tli_restore_mali
+			duration = -1
+		}
+		guinea_region = {
+			add_permanent_claim = ROOT
+		}
+		sahel_region = {
+			add_permanent_claim = ROOT
+		}
+		niger_region = {
+			add_permanent_claim = ROOT
+		}
+	}
+	option = {
+		name = tilebindu.13b
+		set_country_flag = new_world_empire_flag
+		set_government_rank = 3
+		add_government_reform = mali_new_world_empire
+	}
+}

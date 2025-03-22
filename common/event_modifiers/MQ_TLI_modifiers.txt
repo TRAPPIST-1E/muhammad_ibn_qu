@@ -44,3 +44,6 @@ tli_invasion_fleet = {
 tli_missionary_timer = {
 	missionaries = -1
 }
+tli_restore_mali = {
+	core_creation = -0.15
+}
