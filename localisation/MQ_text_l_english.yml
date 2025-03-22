@@ -5,13 +5,15 @@
  TUA_ideas_bonus:0 "Botocudan Ambitions"
 
 bourami: "Bourami"
-bourami_religion_desc: "A Muslim sect founded by Bourama Tounkara, it is highly syncretic with both native Mande traditional practices and those of the Tilebinduan natives."
+bourami_religion_desc: "A Muslim sect founded by Bourama Tounkara, Bourami refers to a syncretic religious structure comprised of old Mande traditions from the West African interior, natives of the Tilebinduan domain and a loose conglomeration of Islamic beliefs carried over during Tilebinduan voyage.\nUnder a decentralised leadership of Islamic scholars, civil and legal matters are resolved by ritualism, relying upon local traditions and practices as well as codified Islamic dogma. Local spirits are respected and revered whilst being ultimately depicted as subservient towards Allah - allowing for the harmless absorption of indigenous practices as the realm expands."
 
 #Estates
 tli_special_convert_diploaction_tt: "Gain access to the '§TEvangelize§!' diplomatic action in the Influence tab, allowing us to convert §YNative§! countries."
 mq_convert_tilebinduan_natives: "Convert Tilebinduan Natives"
 mq_convert_tilebinduan_natives_desc: "We must spread the word of Allah to the unfaithful heathens of the surrounding wilderness."
 unlock_privilege_mq_convert_tilebinduan_natives_tt: "Unlock the §Y[Root.GetClergyName]§! Estate Privilege '§YConvert Tilebinduan Natives§!'"
+estate_horon: "Horon"
+estate_albayiein: "Albayiein"
 
 #diplo action
 tli_convert_natives_action_title: "Evangelize"
