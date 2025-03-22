@@ -27,7 +27,26 @@ mali_established_settlement = {
 	}
 	modifiers = {
 		colonists = 1
-		monthly_reform_progress = 0.3
+		stability_cost_modifier = 0.1
+	}
+	icon = "musa_rule"
+	lock_level_when_selected = yes
+	fixed_rank = 2
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+mali_new_world_empire = {
+	potential = {
+		tag = TLI
+		has_reform = mali_new_world_empire
+	}
+	modifiers = {
+		colonists = 1
+		advisor_pool = 1
+		stability_cost_modifier = -0.1
 	}
 	icon = "musa_rule"
 	lock_level_when_selected = yes

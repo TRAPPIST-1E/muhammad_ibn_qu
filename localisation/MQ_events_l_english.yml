@@ -41,7 +41,21 @@
  tilebindu.8.t: "The End of the Tilebindu Colony"
  tilebindu.8.d: "REPLACE_ME" #shit fuck balls
  tilebindu.8a: "Allah save us . . ."
- tli_game_over_lol_tt: "This is the end of the Tilebindu colony. Future explorers may find ruins, and the refugees fleeing to the forest may hold memories, but the dream of Muhammad ibn Qu is dead and buried. Game over."
+ tli_game_over_lol_tt: "§RThis is the end of the Tilebindu colony. Future explorers may find ruins, and the refugees fleeing to the forest may hold memories, but the dream of Muhammad ibn Qu is dead and buried. Game over.§!"
+
+ tilebindu.9.t: "Our Export Focus"
+ tilebindu.9.d: "Our climate has allowed us to grow various crops that are rather scarce among the nations of the Old World. A momentous decision has come upon us, one to decide what we shall focus on exporting to the rest of the world. In a decree from the Mansa himself, he has decreed that Tilebindu shall primarily produce . . ."
+ tilebindu.9a: "Coffee"
+ tilebindu.9b: "Tea"
+ tilebindu.9c: "Sugar"
+ tilebindu.9d: "Tropical Wood"
+ tilebindu.9e: "Cocoa"
+
+ tilebindu.10.t: "The Theology of Bourama Tounkara"
+ tilebindu.10.d: "A growing religios movement has found itself cemented in the land of Tilebindu. They blend both traditional Mande and native Tilebinduan traditions together to form a radically syncretic new sect of Islam. Leading the movement is one Bourama Tounkara, who has served as the main focus for the new religious community as well as it's greatest theologian, writing down and securing it's teachings. So much so, that his name is being used for the sect."
+ tilebindu.10a: "A great theologian, but we must not listen to his heretical teachings."
+ tilebindu.10b: "His way is the only way forwards in this new land."
+
 
 ##################Resources
 

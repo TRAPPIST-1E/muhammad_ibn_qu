@@ -132,6 +132,7 @@ monarchy = {
 				#MQ
 				mali_settlement_reform
 				mali_established_settlement
+				mali_new_world_empire
 				#
 			}
 		}

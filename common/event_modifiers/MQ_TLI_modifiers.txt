@@ -4,5 +4,25 @@ tli_recovering_colony = {
 }
 tli_reorganized = {
 	global_colonial_growth = 20
+	colony_cost_modifier = -0.2
 	may_explore = yes
+}
+tli_prospering_nation = {
+	global_trade_goods_size_modifier = 0.1
+	monthly_splendor = 2
+}
+tli_crushed_natives = {
+	colony_cost_modifier = -0.2
+}
+tli_brazilwood_dyes = {
+	local_production_efficiency = 0.5
+}
+tli_colonized_north = {
+	colonist_placement_chance = 0.1
+	build_cost = -0.1
+}
+tli_prospering_populace = {
+	local_manpower_modifier = 0.1
+	local_tax_modifier = 0.1
+	local_production_efficiency = 0.1
 }

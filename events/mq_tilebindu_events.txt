@@ -101,7 +101,6 @@ country_event = { #culture
 
 	option = {
 		name = tilebindu.4a
-		change_primary_culture = tilebinduan
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
@@ -110,6 +109,7 @@ country_event = { #culture
 				change_culture = tilebinduan
 			}
 		}
+		change_primary_culture = tilebinduan
 	}
 }
 
@@ -223,6 +223,104 @@ country_event = { #mtth die to colonial strength
 			every_owned_province = {
 				decolonize = yes
 			}
+		}
+	}
+}
+
+country_event = { #export focus
+	id = tilebindu.9
+	title = tilebindu.9.t
+	desc = tilebindu.9.d
+	picture = COLONIZATION_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = tilebindu.9a
+		change_price = {
+			trade_goods = coffee
+			key = "Tilebinduan Meddling"
+			value = 0.2
+			duration = 36500
+		}
+	}
+	option = {
+		name = tilebindu.9b
+		change_price = {
+			trade_goods = tea
+			key = "Tilebinduan Meddling"
+			value = 0.2
+			duration = 36500
+		}
+	}
+	option = {
+		name = tilebindu.9c
+		change_price = {
+			trade_goods = sugar
+			key = "Tilebinduan Meddling"
+			value = 0.2
+			duration = 36500
+		}
+	}
+	option = {
+		name = tilebindu.9d
+		change_price = {
+			trade_goods = tropical_wood
+			key = "Tilebinduan Meddling"
+			value = 0.2
+			duration = 36500
+		}
+	}
+	option = {
+		name = tilebindu.9e
+		change_price = {
+			trade_goods = cocoa
+			key = "Tilebinduan Meddling"
+			value = 0.2
+			duration = 36500
+		}
+	}
+}
+
+country_event = { #bourama tounkara
+	id = tilebindu.10
+	title = tilebindu.10.t
+	desc = tilebindu.10.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = tilebindu.10a
+		define_advisor = {
+			type = theologian
+			name = "Bourama Tounkara"
+			skill = 2
+			religion = bourami
+		}
+	}
+	option = {
+		name = tilebindu.10b
+		change_religion = bourami
+		hidden_effect = {
+			capital_scope = {
+				change_religion = bourami
+			}
+		}
+		add_prestige = -100
+		add_country_modifier = {
+			name = "conversion_zeal"
+			duration = 3650
+		}
+		custom_tooltip = empty_line_tt
+		define_advisor = {
+			type = theologian
+			name = "Bourama Tounkara"
+			skill = 2
+			religion = bourami
+			cost_multiplier = 0.25
 		}
 	}
 }

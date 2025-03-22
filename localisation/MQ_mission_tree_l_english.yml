@@ -50,4 +50,15 @@
  tli_spread_true_faith_title:0 "Spread the Word of Allah"
  tli_spread_true_faith_desc:0 ""
 
+#Modifiers
+tli_prospering_nation: "A Prospering Nation"
+tli_reorganized: "The Reorganization"
+tli_recovering_colony: "Recovering Colony" 
+tli_crushed_natives: "Ended Tupiniquim Raids"
+tli_brazilwood_dyes: "Brazilwood Dyes"
+tli_colonized_north: "Colonized the North"
+tli_prospering_populace: "Prospering Populace"
+
+#TTs
+tli_tilebinduan_provinces_get_tt: "All §YTilebinduan§! provinces recieve:"
 

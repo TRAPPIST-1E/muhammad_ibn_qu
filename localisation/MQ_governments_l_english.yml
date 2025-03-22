@@ -3,7 +3,8 @@ mali_settlement_reform: "Early Tilebindu Settlement"
 mali_settlement_reform_desc: "The settlements of the Tilebindu have developed greatly. But their mismanagement of resources, unfriendly neighbours and the hostile environment has caused issues within the colony."
 mali_established_settlement: "Established Settlement"
 mali_established_settlement_desc: "The Tilebindu have established a settlement in the region. It is a small but thriving community."
-
+mali_new_world_empire: "New World Empire"
+mali_new_world_empire_desc: "Across the golden coasts of Tilebindu, the heirs of Muhammad Qu stand resplendent as the true rulers of the New World."
 
 #gov mech
 ability_TLI_resources_mechanic: "Colonial Strength"

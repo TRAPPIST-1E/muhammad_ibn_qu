@@ -26,33 +26,130 @@ TLI_branch1 = {
 		icon = mission_native_build_army_mission
 		position = 2
 		required_missions = { tli_raise_militias } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			province_id = 757 
+			NOT = {
+				owned_by = ROOT
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			owns_core_province = 757
+		} 
 
-		effect = {  } 
+		effect = {  
+			add_country_modifier = {
+				name = tli_crushed_natives
+				duration = 10950
+			}
+			add_mil_power = 100
+			bahia_area = {
+				add_permanent_claim = ROOT
+			}
+			rio_de_janeiro_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
 	}
 
 	tli_bountiful_coasts = {
 		icon = mission_cromandel_coast
 		position = 3
 		required_missions = { tli_crush_natives } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  
+			OR = {
+				province_id = 760
+				area = rio_de_janeiro_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			owns = 760
+			rio_de_janeiro_area = {
+				owned_by = ROOT
+				type = all
+			}
+			bahia_area = {
+				owned_by = ROOT
+				type = all
+			}
+		} 
 
-		effect = {  } 
+		effect = {  
+			rio_de_janeiro_area = {
+				change_trade_goods = dyes
+				add_province_modifier = {
+					name = tli_brazilwood_dyes
+					duration = -1
+				}
+			}
+			minas_gerais_area = {
+				add_permanent_claim = ROOT
+			}
+			diamantina_area = {
+				add_permanent_claim = ROOT
+			}
+			sao_paolo_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
 	}
 
 	tli_gold_of_south = {
 		icon = mission_zambezi_gold
 		position = 5
 		required_missions = { tli_bountiful_coasts } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  
+			OR = {
+				area = minas_gerais_area
+				area = diamantina_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			minas_gerais_area = {
+				owned_by = ROOT
+				type = all
+			}
+			diamantina_area = {
+				owned_by = ROOT
+				type = all
+			}
+			num_of_owned_provinces_with = {
+				value = 4
+				OR = {
+					trade_goods = gold
+					AND = {
+						OR = {
+							area = diamantina_area
+							area = minas_gerais_area
+						}
+						development = 20
+					}
+				}
+			}
+		} 
 
-		effect = {  } 
+		effect = {  
+			minas_gerais_area = {
+				change_trade_goods = gold
+			}
+			diamantina_area = {
+				change_trade_goods = gold
+			}
+			custom_tooltip = empty_line_tt
+			increase_gold_discovery = yes
+			custom_tooltip = empty_line_tt
+			unlock_estate_privilege = {
+				estate_privilege = estate_burghers_control_over_the_mint
+			}
+		} 
 	}
 }
 TLI_branch2 = {
@@ -66,11 +163,35 @@ TLI_branch2 = {
 		icon = mission_native_reductions
 		position = 3
 		required_missions = { tli_crush_natives } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  
+			area = pernambuco_area
+			NOT = {
+				owned_by = ROOT
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			pernambuco_area = {
+				owned_by = ROOT
+				type = all
+			}
+		} 
 
-		effect = {  } 
+		effect = { 
+			add_country_modifier = {
+				name = tli_colonized_north
+				duration = 9125
+			} 
+			ceara_area = {
+				add_permanent_claim = ROOT
+			}
+			piaui_area = {
+				add_permanent_claim = ROOT
+			}
+			maranhao_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
 	}
 
 	tli_march_to_jungle = {
@@ -178,11 +299,46 @@ TLI_branch4 = {
 		icon = prosperity_for_all
 		position = 3
 		required_missions = { tli_rebirth_of_dalaaba } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  
+			owned_by = ROOT
+			NOT = {
+				OR = {
+					is_prosperous = yes
+					num_of_times_improved = 1
+				}
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			primary_culture = tilebinduan
+			all_owned_province = {
+				OR = {
+					is_prosperous = yes
+					num_of_times_improved = 1
+				}
+			}
+		} 
 
-		effect = {  } 
+		effect = {  
+			custom_tooltip = tli_tilebinduan_provinces_get_tt
+			tooltip = {
+				add_province_modifier = {
+					name = tli_prospering_populace
+					duration = 10950
+				}
+			}
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						culture = tilebinduan
+					}
+					add_province_modifier = {
+						name = tli_prospering_populace
+						duration = 10950
+					}
+				}
+			}
+		} 
 	}
 
 	tli_export_unique_goods = {
@@ -192,11 +348,45 @@ TLI_branch4 = {
 			tli_a_new_prospering_land
 			tli_mission_to_east
 		}
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  
+			owned_by = ROOT
+			OR = {
+				trade_goods = cocoa
+				trade_goods = tropical_wood
+				trade_goods = tea
+				trade_goods = sugar
+				trade_goods = tobacco
+			}
+			NOT = {
+				AND = {
+					development = 10
+					has_production_building_trigger = yes
+				}
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			num_of_owned_provinces_with = {
+				value = 15
+				OR = {
+					trade_goods = cocoa
+					trade_goods = tropical_wood
+					trade_goods = tea
+					trade_goods = sugar
+					trade_goods = tobacco
+				}
+				development = 10
+				has_production_building_trigger = yes
+			}
+		} 
 
-		effect = {  } 
+		effect = {  
+			country_event = {
+				id = tilebindu.9
+			}
+			custom_tooltip = empty_line_tt
+			#smth else
+		} 
 	}
 }
 TLI_branch5 = {
@@ -231,11 +421,30 @@ TLI_branch5 = {
 		icon = mission_son_expand_djenne_mosque
 		position = 2
 		required_missions = { tli_revitalize_colony } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  
+			province_id = 741
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			756 = {
+				NOT = {
+					num_free_building_slots = 2
+				}
+				num_of_times_expanded_infrastructure = 1
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			756 = {
+				set_center_level_2_center_of_trade = yes
+			}
+			756 = {
+				add_great_project_tier = {
+					type = salvador_da_bahia
+					tier = 1
+				}
+			}
+		} 
 	}
 
 	tli_role_of_islam = {
@@ -244,9 +453,22 @@ TLI_branch5 = {
 		required_missions = { tli_rebirth_of_dalaaba } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {  
+			OR = {
+				piety = 50
+				piety = -50
+			}
+			num_of_converted_provinces = {
+				amount = 1
+			}
+			is_year = 1470
+		} 
 
-		effect = {  } 
+		effect = {  
+			country_event = {
+				id = tilebindu.10
+			}
+		} 
 	}
 
 	tli_spread_true_faith = {
@@ -257,6 +479,6 @@ TLI_branch5 = {
 
 		trigger = {  } 
 
-		effect = {  } 
+		effect = {  } #smth branching based on faith probably
 	}
 }
