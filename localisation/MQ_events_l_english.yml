@@ -56,6 +56,15 @@
  tilebindu.10a: "A great theologian, but we must not listen to his heretical teachings."
  tilebindu.10b: "His way is the only way forwards in this new land."
 
+ tilebindu.11.t: "The Grand Eastern Expedition"
+ tilebindu.11.d: "REPLACE_ME" #idk
+ tilebindu.11a: "Farewell!"
+ tli_expedition_east_tt: "§TWe shall expect them to return in a year's time.§!"
+
+ tilebindu.12.t: "The Expedition Returns"
+ tilebindu.12.d: "REPLACE_ME" #idk
+ tilebindu.12a: "We must restore the Mali Empire!"
+ tli_expedition_east_tt: "§TWe shall expect them to return in a year's time.§!"
 
 ##################Resources
 

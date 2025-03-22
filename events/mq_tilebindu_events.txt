@@ -300,6 +300,10 @@ country_event = { #bourama tounkara
 			skill = 2
 			religion = bourami
 		}
+		add_prestige = 30
+		unlock_estate_privilege = {
+			estate_privilege = mq_convert_tilebinduan_natives
+		}
 	}
 	option = {
 		name = tilebindu.10b
@@ -321,6 +325,69 @@ country_event = { #bourama tounkara
 			skill = 2
 			religion = bourami
 			cost_multiplier = 0.25
+		}
+	}
+}
+
+country_event = { #bourama tounkara
+	id = tilebindu.11
+	title = tilebindu.11.t
+	desc = tilebindu.11.d
+	picture = SHIP_SAILING_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = tilebindu.11a
+		custom_tooltip = tli_expedition_east_tt
+		set_country_flag = tli_expedition_east_flag
+		hidden_effect = {
+			country_event = {
+				id = tilebindu.12
+				days = 370
+			}
+		}
+	}
+}
+
+country_event = { #bourama tounkara
+	id = tilebindu.12
+	title = tilebindu.12.t
+	desc = tilebindu.12.d
+	picture = SHIP_SAILING_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		clr_country_flag = tli_expedition_east_flag
+		discover_province = 1584
+		discover_province = 1468
+		discover_province = 1467
+		discover_province = 1466
+		discover_province = 1465
+		guinea_region = {
+			discover_country = ROOT
+		}
+		niger_region = {
+			discover_country = ROOT
+		}
+	}
+
+	option = {
+		name = tilebindu.12a
+		jolof_area = {
+			add_permanent_claim = ROOT
+		}
+		futa_jallon_area = {
+			add_permanent_claim = ROOT
+		}
+		guinea_coast_area = {
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = tli_invasion_fleet
+			duration = 10950
 		}
 	}
 }

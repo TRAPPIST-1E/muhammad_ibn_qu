@@ -1,7 +1,7 @@
 muslim = {
 	crusade_name = JIHAD
 	bourami = {
-		color = { 0 102 0 }
+		color = { 35 89 35 }
 		icon = 30 #temp
 		country = {
 			tolerance_of_heathens_capacity = 3

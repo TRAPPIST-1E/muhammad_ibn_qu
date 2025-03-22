@@ -1,0 +1,26 @@
+mq_convert_tilebinduan_natives = {
+	icon = privilege_seek_support_of_clergy
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.1
+	is_valid = {
+		has_unlocked_estate_privilege = {
+			estate_privilege = mq_convert_tilebinduan_natives
+		}
+	}
+
+	penalties = {
+		tolerance_heathen = -2
+	}
+	benefits = {
+		global_missionary_strength = 0.02
+	}
+	on_granted = {
+		custom_tooltip = tli_special_convert_diploaction_tt
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}

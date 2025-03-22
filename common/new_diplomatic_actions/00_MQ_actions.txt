@@ -1,0 +1,96 @@
+tli_convert_natives_action = {
+	category = influence
+	require_acceptance = yes
+	is_visible = {
+		has_estate_privilege = mq_convert_tilebinduan_natives
+		FROM = {
+			OR = {
+				technology_group = andean
+				technology_group = south_american
+				technology_group = mesoamerican
+				technology_group = north_american
+			}
+			religion_group = pagan
+		}
+    }
+
+	is_allowed = {
+		num_of_missionaries = 1
+    }
+	on_accept = {
+		add_country_modifier = {
+			name = tli_missionary_timer
+			duration = 365
+		}
+		FROM = {
+			change_religion = ROOT
+			hidden_effect = {
+				capital_scope = {
+					change_religion = ROOT
+				}
+			}
+		}
+    }
+	ai_acceptance = {
+		add_entry = {
+            name = DIPLO_OPPINION
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.2
+			}
+        }
+		add_entry = {
+			name = AI_TRUST_TOWARDS_ROOT
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+		add_entry = {
+			name = AI_DIPLOMATIC_REPUTATION
+			export_to_variable = {
+				variable_name = ai_value
+				value = trigger_value:diplomatic_reputation
+			}
+			#1 rep = 4
+			multiply_variable = {
+				which = ai_value
+				value = 4
+			}
+		}
+		add_entry = {
+			name = AI_TOTAL_DEVELOPMENT
+			export_to_variable = {
+				variable_name = ai_value
+				value = total_development
+				who = FROM
+			}
+			#4 dev = -1
+			multiply_variable = {
+				which = ai_value
+				value = -0.25
+			}
+		}
+	}
+
+	ai_will_do = {
+        always = yes
+    }
+}

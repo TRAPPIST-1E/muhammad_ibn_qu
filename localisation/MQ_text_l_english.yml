@@ -4,5 +4,17 @@
  TUA_ideas_start:0 "Botocudan Tradition"
  TUA_ideas_bonus:0 "Botocudan Ambitions"
 
- bourami: "Bourami"
- bourami_desc: "A Muslim sect founded by Bourama Tounkara, it is highly syncretic with both native Mande traditional practices and those of the Tilebinduan natives."
+bourami: "Bourami"
+bourami_religion_desc: "A Muslim sect founded by Bourama Tounkara, it is highly syncretic with both native Mande traditional practices and those of the Tilebinduan natives."
+
+#Estates
+tli_special_convert_diploaction_tt: "Gain access to the '§TEvangelize§!' diplomatic action in the Influence tab, allowing us to convert §YNative§! countries."
+mq_convert_tilebinduan_natives: "Convert Tilebinduan Natives"
+mq_convert_tilebinduan_natives_desc: "We must spread the word of Allah to the unfaithful heathens of the surrounding wilderness."
+unlock_privilege_mq_convert_tilebinduan_natives_tt: "Unlock the §Y[Root.GetClergyName]§! Estate Privilege '§YConvert Tilebinduan Natives§!'"
+
+#diplo action
+tli_convert_natives_action_title: "Evangelize"
+tli_convert_natives_action_tooltip: "Send a missionary to attempt to convert their country."
+tli_convert_natives_action_desc: "If they accept, they will convert to §Y[Root.Religion.GetName]§!. Additionally, lose access to §Y1§! Missionary for §Y1§! year."
+tli_missionary_timer: "Missionary out converting"

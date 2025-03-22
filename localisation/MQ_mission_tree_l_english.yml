@@ -41,7 +41,7 @@
  tli_revitalize_colony_title:0 "Revitalize the Colony"
  tli_revitalize_colony_desc:0 ""
 
- tli_rebirth_of_dalaaba_title:0 "Rebirth of Dalaaba"
+ tli_rebirth_of_dalaaba_title:0 "Rebirth of Dalabaa"
  tli_rebirth_of_dalaaba_desc:0 ""
 
  tli_role_of_islam_title:0 "The Role of Islam"
@@ -58,7 +58,11 @@ tli_crushed_natives: "Ended Tupiniquim Raids"
 tli_brazilwood_dyes: "Brazilwood Dyes"
 tli_colonized_north: "Colonized the North"
 tli_prospering_populace: "Prospering Populace"
+tli_teachings_of_bourama: "Teachings of Bourama"
+tli_spread_allah_word: "Spread Allah's Word"
 
 #TTs
 tli_tilebinduan_provinces_get_tt: "All §YTilebinduan§! provinces recieve:"
+tli_if_bourami_tt: "If we follow the §YBourami§! faith:"
+HAS_CONVERTED_40_PROVINCES_TT: "Has converted at least §Y40§! province (§Y[This.GetNumConvertedProvinces]§!/§Y40§!)"
 

@@ -272,9 +272,18 @@ TLI_branch3 = {
 		required_missions = { tli_edge_of_collapse } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {  
+			navy_size_percentage = 0.9
+			num_of_admirals = 1
+			treasury = 300
+		} 
 
-		effect = {  } 
+		effect = {  
+			add_treasury = -300
+			country_event = {
+				id = tilebindu.11
+			}
+		} 
 	}
 
 	tli_tilebindu_at_crossroads = {
@@ -385,7 +394,9 @@ TLI_branch4 = {
 				id = tilebindu.9
 			}
 			custom_tooltip = empty_line_tt
-			#smth else
+			custom_tooltip = mam_upgrade_private_trade_fleets_tt
+			set_country_flag = mam_upgrade_private_trade_fleets_flag
+			add_mercantilism = 5
 		} 
 	}
 }
@@ -455,8 +466,10 @@ TLI_branch5 = {
 
 		trigger = {  
 			OR = {
-				piety = 50
-				piety = -50
+				piety = 0.5
+				NOT = {
+					piety = -0.5
+				}
 			}
 			num_of_converted_provinces = {
 				amount = 1
@@ -477,8 +490,54 @@ TLI_branch5 = {
 		required_missions = { tli_role_of_islam } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 20
+				has_tax_building_trigger = yes
+			}
+			if = {
+				limit = {
+					religion = bourami
+				}
+				num_of_converted_provinces = {
+					amount = 40
+				}
+			}
+			else = {
+				calc_true_if = {
+					amount = 10
+					desc = " Native countries have been Evangelized."
+					all_country = {
+						is_native_tribe = yes
+						religion = ROOT
+					}
+				}
+			}
+		} 
 
-		effect = {  } #smth branching based on faith probably
+		effect = {  
+			simple_dynamic_effect = {
+				first_custom_tooltip = tli_if_bourami_tt
+				first_limit = "
+					religion = bourami
+				"
+				first_effect = "
+					add_country_modifier = {
+						name = tli_teachings_of_bourama
+						duration = -1
+					}
+				"
+				second_limit = "
+					NOT = { religion = bourami }
+				"
+				second_effect = "
+					add_country_modifier = {
+						name = tli_spread_allah_word
+						duration = -1
+					}
+				"
+			}
+			
+		}
 	}
 }
