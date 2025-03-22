@@ -18,3 +18,5 @@ tli_convert_natives_action_title: "Evangelize"
 tli_convert_natives_action_tooltip: "Send a missionary to attempt to convert their country."
 tli_convert_natives_action_desc: "If they accept, they will convert to §Y[Root.Religion.GetName]§!. Additionally, lose access to §Y1§! Missionary for §Y1§! year."
 tli_missionary_timer: "Missionary out converting"
+
+salvador_da_bahia: "City of Dalabaa"
