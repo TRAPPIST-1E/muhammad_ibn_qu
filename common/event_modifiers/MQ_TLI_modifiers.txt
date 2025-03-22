@@ -47,3 +47,6 @@ tli_missionary_timer = {
 tli_restore_mali = {
 	core_creation = -0.15
 }
+tli_giant_gold_found = {
+	trade_goods_size = 2
+}

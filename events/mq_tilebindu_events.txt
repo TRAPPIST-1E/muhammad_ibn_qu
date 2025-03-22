@@ -425,3 +425,31 @@ country_event = { #bourama tounkara
 		add_government_reform = mali_new_world_empire
 	}
 }
+
+country_event = { #gold in south
+	id = tilebindu.14
+	title = tilebindu.14.t
+	desc = tilebindu.14.d
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+
+	is_triggered_only = no
+	fire_only_once = yes
+
+	trigger = {
+		tag = TLI
+		is_core = 2899
+	}
+
+	option = {
+		name = tilebindu.14a
+		2899 = {
+			add_province_modifier = {
+				name = "tli_giant_gold_found"
+				duration = -1
+			}
+			change_trade_goods = gold
+			add_base_production = 2
+			add_base_manpower = 2
+		}
+	}
+}
