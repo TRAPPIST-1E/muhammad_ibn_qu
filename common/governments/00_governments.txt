@@ -1068,6 +1068,8 @@ tribal = {
 				#1.36
 				#Turkomen
 				turkoman_ottoman_institutions
+				#MQ
+				tupinauri_confederation
 			}
 		}
 		tribal_cultural_values = {

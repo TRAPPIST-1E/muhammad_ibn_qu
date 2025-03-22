@@ -198,22 +198,88 @@ TLI_branch2 = {
 		icon = mission_jungle
 		position = 4
 		required_missions = { tli_expand_northwards } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  
+			OR = {
+				area = ceara_area
+				area = piaui_area
+				area = maranhao_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			ceara_area = {
+				owned_by = ROOT
+				type = all
+			}
+			piaui_area = {
+				owned_by = ROOT
+				type = all
+			}
+			maranhao_area = {
+				owned_by = ROOT
+				type = all
+			}
+		} 
 
-		effect = {  } 
+		effect = { 
+			751 = {
+				add_or_upgrade_trade_building = yes
+			}
+			amazon_area = {
+				add_permanent_claim = ROOT
+			}
+			grao_para_area = {
+				add_permanent_claim = ROOT
+			}
+			amazon_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
 	}
 
 	tli_kill_tupinauri = {
 		icon = mission_invade_mali
 		position = 5
 		required_missions = { tli_march_to_jungle } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  
+			OR = {
+				area = amapa_area
+				area = grao_para_area
+				province_id = 2930
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		} 
 
-		trigger = {  } 
+		trigger = {  
+			owns = 2930
+			amapa_area = {
+				owned_by = ROOT
+				type = all
+			}
+			grao_para_area = {
+				owned_by = ROOT
+				type = all
+			}
+		} 
 
-		effect = {  } 
+		effect = {  
+			2930 = {
+				add_great_project_tier = {
+					type = jungle_fort
+					tier = 1
+				}
+				change_culture = ROOT
+				change_religion = ROOT
+				center_of_trade = 1
+			}
+			add_mil_power = 150
+
+		} 
 	}
 }
 TLI_branch3 = {

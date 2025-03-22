@@ -5,7 +5,8 @@ mali_established_settlement: "Established Settlement"
 mali_established_settlement_desc: "The Tilebindu have established a settlement in the region. It is a small but thriving community."
 mali_new_world_empire: "New World Empire"
 mali_new_world_empire_desc: "Across the golden coasts of Tilebindu, the heirs of Muhammad Qu stand resplendent as the true rulers of the New World."
-
+tupinauri_confederation: "Tupinauri Confederation"
+tupinauri_confederation_desc: "The Tupinauri Confederation has ruled the breadth of the Amazon for time immemorial, cultivating the jungle into a lush garden and building great cities."
 #gov mech
 ability_TLI_resources_mechanic: "Colonial Strength"
 TLI_resources_mechanic: "Colonial Strength"

@@ -167,7 +167,7 @@ jungle_fort = {
 		}
 		country_modifiers = {
 			vassal_income = 0.1
-			liberty_desire = -10
+			reduced_liberty_desire = 10
 		}
 		on_upgraded = {
 		}
@@ -190,7 +190,7 @@ jungle_fort = {
 		}
 		country_modifiers = {
 			vassal_income = 0.2
-			liberty_desire = -20
+			reduced_liberty_desire = 20
 			mercenary_discipline = 0.025
 		}
 		on_upgraded = {
@@ -214,7 +214,7 @@ jungle_fort = {
 		}
 		country_modifiers = {
 			vassal_income = 0.3
-			liberty_desire = -33
+			reduced_liberty_desire = 33
 			mercenary_discipline = 0.05
 		}
 		on_upgraded = {

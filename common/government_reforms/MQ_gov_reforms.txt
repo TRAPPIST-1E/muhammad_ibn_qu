@@ -55,3 +55,20 @@ mali_new_world_empire = {
 		locked_government_type = yes
 	}
 }
+
+tupinauri_confederation = {
+	potential = {
+		OR = {
+			tag = TPN
+			OR = {
+				has_reform = tupinauri_confederation
+				have_had_reform = tupinauri_confederation
+			}
+		}
+	}
+	modifiers = {
+		same_culture_advisor_cost = -0.15
+		vassal_income = 0.2
+	}
+	icon = "chieftain"
+}
