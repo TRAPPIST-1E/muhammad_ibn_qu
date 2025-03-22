@@ -2,25 +2,25 @@
 #######################Tilebindu
 #Lore event
  tilebindu.1.t: "The Land of Muhammad Qu"
- tilebindu.1.d: "REPLACE_ME" #resources are dwindling, contact is lost, hope is lost unless we can consolidate resources and stuff
+ tilebindu.1.d: "The year is 1444. While empires rise and fall across the Old World, a small band of Malian settlers, the descendents of the legendary Mansa Muhammad Qu, have carved out a precarious foothold on the distant shores of South America. Driven by trade winds and the promise of new lands, they have named their fledgling colony Tilebindu. Though far from their ancestral home, the settlers carry with them the rich traditions and skills of the Mali Empire. \n\nBut this new land is wild and untamed. The local tribes are wary, and the vast rainforest holds both wonders and dangers. Tilebindu is a tiny spark in a vast wilderness, a seed planted in foreign soil. Will it wither and fade, or will it grow into a mighty tree, bearing the fruits of a new civilization?" 
  tilebindu.1a: "A great challenge lies ahead."
 
 #repurpose the navy
  tilebindu.2.t: "Repurposing the Navy"
- tilebindu.2.d: "REPLACE_ME" #scrap the navy and use the resources to improve capital
+ tilebindu.2.d: "Our once-proud trade fleet, which sailed the vast ocean, now sits idle. The trade routes have shifted, and the ships gather dust in the harbor. However, the people of Dalabaa are resourceful! They look to the ships and see not just vessels, but a wealth of materials and manpower. The city's elders propose a bold plan: to repurpose the navy, using its ships to transport stone, timber, and skilled laborers to expand and improve our capital. The only question now is what they shall focus on." #scrap the navy and use the resources to improve capital
  tilebindu.2a: "Improve housing."
  tilebindu.2b: "Improve economic facilities."
  tilebindu.2a: "Improve military structures."
 
 #Decide what to do about crisis
  tilebindu.3.t: "The [Root.Monarch.GetTitle] and his Advisors"
- tilebindu.3.d: "REPLACE_ME" #resources are dwindling, cwe gotta do something, advisors propose a variety of things we can do to extend resources and revitalize ourselves.
+ tilebindu.3.d: "A shadow falls over Tilebindu. Our once-abundant lands are yielding less, and the storehouses are growing bare. A resource crisis looms, threatening our prosperity and stability. The Mansa has called upon the council of advisors, each a wise and experienced leader, to deliberate on this grave matter."
  tilebindu.3a: "Drastic measures must be taken."
  tli_decisions_to_fix_stuff_tt: "§TEnable various Decisions to help fix our nation.§!"
 
 #Culture switch
  tilebindu.4.t: "A New Culture in Tilebindu"
- tilebindu.4.d: "REPLACE_ME"
+ tilebindu.4.d: "For generations, Tilebindu has been a crossroads of cultures, a melting pot of Malian traditions and Native influences. But in recent years, as the nation has grown in strength and isolation, a new identity has begun to emerge. The people of Tilebindu are no longer just Malians who happen to live across the sea. They are something new, something unique. This new identity is a source of both pride and uncertainty."
  tilebindu.4a: "A new people for a new land."
 
 #Culture switch
@@ -35,11 +35,11 @@
  tilebindu.6b: "We cannot spare the funds."
 
  tilebindu.7.t: "The Revival of Tilebindu"
- tilebindu.7.d: "REPLACE_ME" #we good now
+ tilebindu.7.d: "The people of Tilebindu have faced great challenges in recent years, but they have not been broken. The nation has weathered storms of economic hardship, political strife, and even foreign invasion. But through it all, the spirit of Tilebindu has remained unbroken. The people have shown resilience, resourcefulness, and a deep commitment to their homeland. Now, as the clouds begin to part, a new dawn is breaking over Tilebindu. The nation is poised to rise from the ashes of its past and build a brighter future." #we good now
  tilebindu.7a: "Just imagine how Mansa Muhammad would think of us now!"
 
  tilebindu.8.t: "The End of the Tilebindu Colony"
- tilebindu.8.d: "REPLACE_ME" #shit fuck balls
+ tilebindu.8.d: "The prosperity that once shone so brightly in Tilebindu has dimmed. Our once-rich lands, mismanaged and overexploited, yield less and less. The coffers are empty, the people restless. The once-proud fleets rot in the harbors, and the vibrant markets fall silent. The whispers of discontent grow louder, and the specter of ruin looms over our once-great nation. The choices we made in our pursuit of wealth have returned to haunt us."
  tilebindu.8a: "Allah save us . . ."
  tli_game_over_lol_tt: "§RThis is the end of the Tilebindu colony. Future explorers may find ruins, and the refugees fleeing to the forest may hold memories, but the dream of Muhammad ibn Qu is dead and buried. Game over.§!"
 
@@ -57,17 +57,17 @@
  tilebindu.10b: "His way is the only way forwards in this new land."
 
  tilebindu.11.t: "The Grand Eastern Expedition"
- tilebindu.11.d: "REPLACE_ME" #idk
+ tilebindu.11.d: "Generations have passed since our ancestors left the shores of West Africa. Though we have built a prosperous life here in Tilebindu, the call of our homeland echoes in our hearts. Explorers and merchants alike speak of rich lands and powerful kingdoms to the east. The time has come to bridge the vast ocean and rediscover our roots. A grand expedition is proposed, to sail eastward and re-establish contact with the lands of our forefathers. Let the sails billow and the drums beat! We shall brave the seas and reconnect with our ancestral lands!" #idk
  tilebindu.11a: "Farewell!"
  tli_expedition_east_tt: "§TWe shall expect them to return in a year's time.§!"
 
  tilebindu.12.t: "The Expedition Returns"
- tilebindu.12.d: "REPLACE_ME" #idk
+ tilebindu.12.d: "After months at sea, the expedition has returned! They bring tales of vibrant markets and powerful kingdoms, lands rich with gold and stories of our shared heritage. But they also bring somber news. The once-mighty Mali Empire, the heart of our ancestors, has fallen. Its lands are fractured, its cities diminished. A deep sadness settles over our people. We are faced with a choice: will we mourn the past, or will we rise to the challenge and honor our legacy in a new way?" #idk
  tilebindu.12a: "We must restore the Mali Empire!"
- tli_expedition_east_tt: "§TWe shall expect them to return in a year's time.§!"`
+ tli_expedition_east_tt: "§TWe shall expect them to return in a year's time.§!"
 
  tilebindu.13.t: "The Future of Tilebindu"
- tilebindu.13.d: "The winds of the Atlantic have carried more than just ships to our shores. For generations, we have thrived in this new land, building Tilebindu from a humble colony to a vibrant realm. Yet, whispers of our ancestral home, the mighty Mali Empire, still linger in the hearts of our people. Some dream of re-establishing that glorious empire, reclaiming its lost territories and restoring its former glory. Others, however, see a different path. They envision a new empire, born from the rich soil of the New World, a fusion of Malian strength and the vibrant cultures of this land." #idk
+ tilebindu.13.d: "The winds of the Atlantic have carried more than just ships to our shores. For generations, we have thrived in this new land, building Tilebindu from a humble colony to a vibrant realm. Yet, whispers of our ancestral home, the mighty Mali Empire, still linger in the hearts of our people. Some dream of re-establishing that glorious empire, reclaiming its lost territories and restoring its former glory. Others, however, see a different path. They envision a new empire, born from the rich soil of the New World, a fusion of Malian strength and the vibrant cultures of this land."
  tilebindu.13a: "Restore the glory of Mali!"
  tilebindu.13b: "We must forge a new path."
 
