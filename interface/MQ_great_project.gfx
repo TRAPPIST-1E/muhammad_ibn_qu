@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_great_project_ibn_mosque"	
+		texturefile = "gfx//interface//great_projects//great_project_ibn_mosque.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_jungle_fort"	
+		texturefile = "gfx//interface//great_projects//great_project_jungle_fort.dds"
+	}
+}
