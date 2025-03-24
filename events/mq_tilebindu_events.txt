@@ -201,6 +201,8 @@ country_event = { #mtth die to colonial strength
 
 	trigger = {
 		tag = TLI
+		has_government_mechanic = TLI_resources_mechanic
+		has_reform = mali_settlement_reform
 		NOT = {
 			has_government_power = {
 				mechanic_type = TLI_resources_mechanic
